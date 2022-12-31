@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Condensed;
+}
+
+#barraDeNavegacion{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 141, 245);
+}
+
+#barraDeNavegacion li{
+    float: left;
+    height: 4em;
+   
+}
+
+
+#barraDeNavegacion li#paginas a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 14px 16px;
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+}
+
+#tecnicosLogo{
+    display:block;
+    padding: 14px 16px;
+    height: 2em;
+    width: 2em;
+}
+
+#fotoPrincipal{
+    height: 34.7em;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+}
+
+hr#bottom{
+    margin-top: -4px;
+    padding-top: -2px;
+    border: 10px solid black;
+}
+
+#presentacion{
+    background-color: black;
+    position: relative;
+}
+
+#fotoPrincipalTexto{
+    color: white;
+    position: absolute;
+    top: 9em;
+    right: 5em;
+    font-size: 18px;
+    text-align: justify;
+    width: 30%;
+    
+}
+
+#fotoPrincipalTexto h1{
+    text-align: right;
+}
+
+#paginas:hover{
+    background-color: black;
+    opacity: 1;
+}

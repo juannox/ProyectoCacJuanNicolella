@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnicos a Domicilio</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/estilosPedidos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--Barra de navegación-->
+    <div>
+        <ul id="barraDeNavegacion">
+            <!--Logo a la izquierda-->
+            <li><a id="tecnicosLogoA" class="container-fluid" href="../index.html"><img id="tecnicosLogo" src="../images/tecnicosLogo.png" alt="Logo"></a></li>
+            <!--Barra de navegación a la derecha-->
+            <div id="navDer">
+                <li id="paginas"><a href="../index.html">Home</a></li>
+                <li id="paginas"><a href="../PaginasSecundarias/nosotros.html">Nosotros</a></li>
+                <li id="paginas"><a href="../PaginasSecundarias/pedidos.html">Pedidos</a></li>
+                <li id="paginas"><a href="../PaginasSecundarias/contacto.html">Contacto</a></li>
+            </div>
+        </ul>
+        <hr id="barra">
+    </div>
+    
+
+    
+
+    
+    <!--Texto principal-->
+    <div class="d-flex justify-content-center p-3 mt-5">
+        <img id="imagenPrincipal" src="../images/tecnicosLogo.png" alt="Logo">
+    </div>  
+    
+    <h1 id="textoPrincipal">Para poder solicitar un técnico, primero inicie sesión</h1>
+
+    
+    <!--Formulario-->
+    <form id="formInicioSesion" class="mt-4" action="../checkuser" method="post">
+        <div class="mt-3">
+          <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="mb-3" id="contraseña">
+          <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="Contraseña" required>
+        </div>
+        <button type="submit" class="btn btn-primary container">Ingresar</button>
+      </form>
+
+
+</body>
+</html>

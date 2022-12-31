@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Condensed;
+}
+
+#barraDeNavegacion{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 141, 245);
+}
+
+#barraDeNavegacion li{
+    float: left;
+    height: 4em;
+   
+}
+
+
+#barraDeNavegacion li#paginas a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 14px 16px;
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+}
+
+#tecnicosLogo{
+    padding: 0;
+    height: 2em;
+    width: 2em;
+}
+
+#tecnicosLogoA{
+    padding: 0;
+    padding: 14px 16px;
+    margin: 0;
+    display: block;
+}
+
+
+#barra{
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    opacity: 1;
+}
+
+#paginas:hover{
+    background-color: black;
+    opacity: 1;
+}
+
+
+.parrafo-conf{
+    text-align: right;
+}
+
+.playa{
+    height: 25em;
+    width: 100%;
+}
+
+.subrayado-puntos{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+form{
+    margin: auto 22%;
+}
+
+.comentario{
+    font-size: 0.8em;
+}
+
+.enviar{
+    background-color: rgb(158, 209, 63);
+}
+
+#resumen, #borrar{
+    background-color: rgb(94, 141, 245);
+}
+
+a{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.pag-ticket{
+    width: 50%;
+}
+
+.card{
+    border: 2px solid;
+    border-color: rgb(94, 141, 245);
+    border-radius: 10px;
+    margin: 2em;
+}
+
+
+#hacerPedido{
+    background-color: rgb(94, 141, 245);
+    color: black;
+}
+
+#hacerPedido:hover{
+    opacity: 0.8;
+}

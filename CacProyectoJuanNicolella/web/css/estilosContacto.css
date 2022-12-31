@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Condensed;
+}
+
+#barraDeNavegacion{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 141, 245);
+}
+
+#barraDeNavegacion li{
+    float: left;
+    height: 4em;
+   
+}
+
+
+#barraDeNavegacion li#paginas a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 14px 16px;
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+}
+
+#tecnicosLogo{
+    display:block;
+    padding: 14px 16px;
+    height: 2em;
+    width: 2em;
+}
+
+
+hr{
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+}
+
+#paginas:hover{
+    background-color: black;
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Condensed;
+}
+
+#barraDeNavegacion{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 141, 245);
+}
+
+#barraDeNavegacion li{
+    float: left;
+    height: 4em;
+   
+}
+
+
+#barraDeNavegacion li#paginas a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 23px 14px 16px;
+    text-decoration: none;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+}
+
+#tecnicosLogo{
+    padding: 0;
+    height: 2em;
+    width: 2em;
+}
+
+#tecnicosLogoA{
+    padding: 0;
+    padding: 14px 16px;
+    margin: 0;
+    display: block;
+}
+
+
+#barra{
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    opacity: 1;
+}
+
+#paginas:hover{
+    background-color: black;
+    opacity: 1;
+}
+
+
+#textoPrincipal ul li{
+    color: rgb(94, 141, 245);
+    font-size: 2em;
+    margin: 1em; 
+    margin-right: 2em;
+}
+
+#textoPrincipal ul li span{
+    color: black;
+    font-size: 0.5em;
+    text-align: justify;
+    font-family: Roboto Condensed;
+}
+
+#mvv{
+    margin: 3em;
+    margin-right: 3.5em;
+    
+}
+
+#valores ul li{
+    list-style-type: disc;
+    color: black;
+    margin: 0;
+    font-size: 1em;
+}
+
+#valoresTexto{
+    font-size: 2em;
+}
